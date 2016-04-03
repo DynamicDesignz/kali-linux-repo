@@ -1,0 +1,2 @@
+echo Dump Visual Network Traffic to Web Browser;
+sudo webspy -i wlan0 -p webspycap.pcap 192.168.1.1
