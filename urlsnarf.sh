@@ -1,2 +1,4 @@
-echo output selected URLs sniffed from HTTP traffic in CLF;
-sudo urlsnarf -i wlan0
+echo "output selected URLs sniffed from HTTP traffic in CLF"
+echo -n "Interface: "
+read iface
+sudo urlsnarf -i $iface
