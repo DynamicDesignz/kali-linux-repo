@@ -1,1 +1,4 @@
-sudo filesnarf -i wlan0
+#!/bin/bash
+echo "Interface: "
+read iface
+sudo filesnarf -i $iface
