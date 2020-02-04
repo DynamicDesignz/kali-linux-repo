@@ -1,1 +1,4 @@
-nmap --script=http-email-harvest dynamicdesignz.net/log
+#!/bin/bash
+echo -n "Emap Harvest Url: "
+read url
+sudo nmap --script=http-email-harvest $url
